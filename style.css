@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+p,h1,h2{
+    font-family: "Montserrat", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: #f8f8f8;
+}
+
+/* HEADER STYLING */
+
+.first{
+    margin-left: 100px;
+    height: 80px;
+}
+
+.brand h1{
+    font-weight: bolder;
+    margin-right: 50px;
+    font-size: 40px;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    font-style: italic;
+}
+
+.searching{
+    margin-top: 15px;
+    height: 50px;
+    width: 650px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.searching input{
+    border: none;
+    width: 400px;
+    font-size: 15px;
+    color: rgb(211, 206, 206);
+    margin-left: 10px;
+}
+
+.searching i{
+    color: grey;
+}
+
+.login, .signup{
+    margin-left: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    background-color: white;
+    color: #9b9898;
+
+    &:hover{
+        color: black;
+    }
+}
+
+
+.second{
+    height: 100px;
+    width: 100vw;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 10;
+}
+
+.img img{
+    height: 40px;
+    width: 40px;
+    margin: 18px;
+}
+
+.img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-top: 10px;
+}
+
+.txt{
+    font-size: 15px;
+    font-weight: normal;
+    position: relative;
+    bottom: 25px;
+}
+
+.dining{
+    margin-left: 300px;
+    cursor: pointer;
+}
+.delivery{
+    margin-left: 40px;
+    cursor: pointer;
+}
+.nightlife{
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+
+.third{
+    background-color: rgb(240, 237, 237);
+    height: 480px;
+}
+
+.collections p{
+    font-size: 30px;
+    margin-left: 40px;
+    padding-top: 25px;
+}
+
+.card1{
+    position: relative;
+    margin-left: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.card1 img{
+    height: 320px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.card1 .para1{
+    color: white;
+    position: absolute;
+    bottom: 35px;
+    left: 10px;
+}
+.card1 .para2{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+
+.main-text{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.main-text p{
+    display: inline-block;
+}
+
+.p2{
+    color: red;
+    margin-left: 50px;
+}
+
+.p3{
+    color: red;
+    font-size: 15px;
+}
+
+
+
+/* BODY STYLING */
+
+.body-image img{
+    height: 250px;
+    width: 85vw;
+    margin: 30px 85px;
+    cursor: pointer;
+}
+
+.body-heading p{
+    font-size: 35px;
+    margin-left: 85px;
+}
+
+.buttons{
+    position: sticky;
+    top: 0px;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+}
+
+button{
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: white;
+    color: #9b9898;
+    border-radius: 6px;
+    border: 1px solid rgb(94, 92, 92);
+    padding: 8px;
+    
+
+    &:hover{
+        color: black;
+    }
+}
+
+.b1{
+    margin-left: 40px;
+}
+
+/* CARDS STYLING  */
+
+.card{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 55px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.box{
+    display: inline-block;
+}
+
+.image img{
+    height: 250px;
+    width: 320px;
+    border-radius: 15px;
+}
+
+.rest-name {
+    display: flex;
+    position: relative;
+    margin: 10px 0px;
+}
+
+.rating {
+    display: flex;
+    background-color: darkgreen;
+    padding: 4px;
+    color: white;
+    border-radius: 6px;
+    font-size: 12px;
+    position: absolute;
+    right: 5px;
+}
+
+.name p{
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.rating i{
+    font-size: 8px;
+    margin: 3px 1px;
+}
+.rating p{
+    font-weight: bolder;
+}
+
+.food, .location{
+    position: relative;
+    margin: 5px 0px;
+}
+
+.price, .distance{
+    position: absolute;
+    right: 5px;
+}
+
+.food, .price, .address{
+    color: #8d8a8a;
+}
+
+.distance{
+    font-size: 12px;
+    font-weight: 600;
+}
+
